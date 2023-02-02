@@ -40,6 +40,9 @@ const Home = () => {
     }
 
     const handleToggle = (id) => {
+        if(clicked){
+            return alert("COMPLETE CURRENT TASK 1ST")
+         }
 
         setClick(true)
         const Filterdata = data.filter(item => item._id === id)
