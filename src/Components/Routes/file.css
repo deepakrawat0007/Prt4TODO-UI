@@ -1,0 +1,110 @@
+.pageview{
+    width:100%;
+    height:85.5vh;
+    background-color: skyblue;
+    padding-top: 7%;
+}
+.wrapper{
+    color:ghostwhite;
+    background-color: darkcyan;
+    margin:auto;
+    display:flex;
+    justify-content: center;
+    width:30vw;
+    padding:20px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px black;
+}
+.wrapper form input , .wrapper form button{
+    border:0;
+    background-color: lightgray;
+    display:block;
+    width: 25vw;
+    height:5vh;
+    margin: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.wrapper form button{
+    margin: auto;
+    background-color: skyblue;
+    height: 7vh;
+    color:black;
+    cursor: pointer;
+}
+.wrapper form button:hover{
+    background-color: rgb(18, 81, 105);
+    color:white;
+}
+
+form{
+    text-align: center;
+}
+p{
+    color:white;
+    cursor:pointer;
+}
+p:hover{
+    color:red;
+}
+.head-wrapper{
+    display: flex;
+    border-bottom: 1px solid gray;
+}
+.head-wrapper h2{
+    margin-left: 5%;
+    margin-right: auto;
+    
+}
+.head-wrapper h3{
+    margin-right:3%
+}
+
+.main-wrapper{
+    display:flex;
+}
+
+.side-bar{
+    width:30vw;
+    height: 90vh;
+    background-color: gray;
+}
+.side-bar div{
+    text-align: center;
+}
+.history{
+    height:60vh;
+}
+.btns{
+    width:10vw;
+    height:5vh;
+    border:0;
+    font-size: 25px;
+    
+}
+.btns:hover{
+    cursor: pointer;
+    background-color: cadetblue;
+    color:white;
+}
+.btn{
+    height:5vh;
+    font-size: 25px;
+    cursor:pointer;
+}
+.table{
+    margin-left: auto;
+    margin-right: auto;
+}
+table{
+    margin-top: 5%;
+}
+table , td , th{
+    border:1px solid gray;
+
+}
+td,th{
+    padding:10px;
+}
